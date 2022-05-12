@@ -1,0 +1,36 @@
+.card{
+    border: none;
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background:hsla(205, 46%, 1);
+    background: linear-gradient(90deg,rgb(64, 64, 170) 0%,hsla(260, 20%,36%,1) 100%);
+}
+
+.card h1,h3{
+    color: white;
+}
+label {
+    color: white;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://mdbootstrap.com/img/Photos/Others/architecture.webp");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
